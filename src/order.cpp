@@ -15,3 +15,17 @@ order::order(std::vector<std::string> input) {
     this->price = stoi(input[3]);
     this->quantity = stoi(input[4]);
 }
+
+bool compare_orders_desc(order o1, order o2) {
+    // if (o1.price == o2.price) {
+    //     return o1.time < o2.time;
+    // }
+    return (o1.price > o2.price);
+}
+
+bool compare_orders_asc(order o1, order o2) {
+    // if (o1.price == o2.price) {
+    //     return o1.time < o2.time;
+    // }
+    return (o1.price < o2.price);
+}

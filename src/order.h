@@ -1,3 +1,6 @@
+#ifndef ORDER_H
+#define ORDER_H
+
 #include <vector>
 #include <string>
 #include <ctime>
@@ -13,3 +16,8 @@ struct order
         int price;
         int quantity;
 };
+
+bool compare_orders_desc(order o1, order o2);
+bool compare_orders_asc(order o1, order o2);
+
+#endif
