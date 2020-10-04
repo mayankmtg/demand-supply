@@ -1,5 +1,6 @@
 #include "domain.h"
 
+// TODO introduce caching here
 std::vector<order*> domain::possible_suppliers(order &demand, std::vector<order> &supply) {
     std::vector<order*> suppliers;
     for (int i = 0; i < supply.size(); i++) {
