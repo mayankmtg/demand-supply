@@ -4,14 +4,15 @@
 #include <vector>
 #include <string>
 #include <ctime>
+#include <time.h>
 
 struct order
 {
     public:
-        static std::tm process_time(std::string time_string);
+        static time_t process_time(std::string time_string);
         order(std::vector<std::string> input);
         std::string id;
-        std::tm time;
+        time_t time;
         std::string produce;
         int price;
         int quantity;
