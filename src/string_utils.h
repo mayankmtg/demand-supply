@@ -17,3 +17,8 @@ std::vector<std::string> split(const std::string& str, const std::string& delim)
     while (pos < str.length() && prev < str.length());
     return tokens;
 }
+
+void remove_substr(std::string& str, const std::string& substr) {
+    std::string::size_type i = str.find(substr);
+    if (i != std::string::npos) str.erase(i, substr.length());
+}

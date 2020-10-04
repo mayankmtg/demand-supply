@@ -2,7 +2,13 @@
 
 void process_input(const std::string& str){
     std::vector<std::string> input = split(str, " ");
+    if (input.size() != 5) {
+        // Not raising input errors
+        return;
+    }
     std::string order_id = input[0];
+    remove_substr(input[3], "/kg");
+    remove_substr(input[4], "kg");
     if (order_id[0] == 's') {
         supply.push_back(order(input));
     }

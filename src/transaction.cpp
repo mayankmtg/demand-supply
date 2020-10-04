@@ -14,7 +14,7 @@ std::string Transaction::get_string() {
     std::string return_string = "";
     return_string += this->demand_order->id + " ";
     return_string += this->supply_order->id + " ";
-    return_string += std::to_string(this->supply_order->price) + " ";
-    return_string += std::to_string(this->quantity);
+    return_string += std::to_string(this->supply_order->price) + "/kg ";
+    return_string += std::to_string(this->quantity) + "kg";
     return return_string;
 }
