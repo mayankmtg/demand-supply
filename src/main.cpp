@@ -18,7 +18,7 @@ int main() {
         if (str.length() == 0) break;
         process_input(str);
     }
-    domain::max_profit_greedy(demand, supply, transactions);
+    domain::compute_transactions_greedily(demand, supply, transactions);
     for (int i=0; i<transactions.size(); i++) {
         std::cout << transactions[i].get_string() << std::endl;
     }

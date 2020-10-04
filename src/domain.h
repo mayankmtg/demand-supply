@@ -8,7 +8,7 @@
 
 struct domain {
     public:
-        static void max_profit_greedy(std::vector<order> &demand, std::vector<order> &supply, std::vector<Transaction>& transactions);
+        static void compute_transactions_greedily(std::vector<order> &demand, std::vector<order> &supply, std::vector<Transaction>& transactions);
 };
 
 #endif
