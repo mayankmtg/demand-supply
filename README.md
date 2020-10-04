@@ -42,3 +42,9 @@ This directory contains the executable binary for code execution
 ### sample
 
 This directory contains the sample input files
+
+## Explaining the logic
+
+We use greedy approach compute which transactions we must undertake.
+
+This is based on the requirement of priority based on "lower supply price - higher demand price".
