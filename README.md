@@ -5,7 +5,6 @@
 Ensure g++ is installed.
 Code is shipped with Makefile to handle compiling and linking
 
-
 ```
 mkdir build/
 mkdir bin/
@@ -15,6 +14,7 @@ make
 ```
 
 Note: Any input file should have an empty line in the end for the code to work
+
 Also: The program is accepting input from stdin; empty line terminates input
 
 ## Generating random test files
