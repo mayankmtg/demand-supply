@@ -1,0 +1,10 @@
+s1 09:45 tomato 4 64
+d1 09:45 tomato 15 67
+s2 09:45 tomato 2 4
+d2 09:45 tomato 9 86
+s3 09:45 tomato 2 138
+d3 09:45 tomato 10 106
+s4 09:45 tomato 2 85
+d4 09:45 tomato 17 81
+s5 09:45 tomato 3 128
+d5 09:45 tomato 13 35
